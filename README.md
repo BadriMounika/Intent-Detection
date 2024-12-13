@@ -1,7 +1,7 @@
 ## Title
 # Intent-Detection
 ## Description
-This project implements a machine learning model for intent detection, a crucial component in Conversational AI. By leveraging the powerful BERT model, the system can classify user queries into predefined categories such as **EMI, Warranty, Delivery**, and more. The approach ensures contextual understanding of user inputs, enabling accurate and meaningful responses.
+This task implements a machine learning model for intent detection, a crucial component in Conversational AI. By leveraging the powerful BERT model, the system can classify user queries into predefined categories such as **EMI, Warranty, Delivery**, and more. The approach ensures contextual understanding of user inputs, enabling accurate and meaningful responses.
 
 # Table of Contents
 - [Overview](#Overview)
@@ -20,7 +20,7 @@ Query: "What is the EMI option?"
 
 Predicted Intent: **EMI**
 
-This project explores **two approaches** to intent detection:
+This task explores **two approaches** to intent detection:
 ## 1. Traditional Machine Learning Approaches
 Traditional methods like **Naive Bayes, Support Vector Machines (SVM)**, or **Logistic Regression** use manually engineered features such as:
 
@@ -102,15 +102,15 @@ pip install -r requirements.txt
 
 
 ## Data Preprocessing
-**Text Cleaning**: Remove special characters, extra spaces, and convert text to lowercase.
+- **Text Cleaning**: Remove special characters, extra spaces, and convert text to lowercase.
 
-**Tokenization**: Break down sentences into words/subwords using BERT's pre-trained tokenizer to convert text into numerical format.
+- **Tokenization**: Break down sentences into words/subwords using BERT's pre-trained tokenizer to convert text into numerical format.
 
-**Padding and Truncation**: Ensure all text sequences are of the same length by padding or truncating the text.
+- **Padding and Truncation**: Ensure all text sequences are of the same length by padding or truncating the text.
 
-**Encoding Labels**: Convert intent labels (e.g., EMI) into numeric values using LabelEncoder.
+- **Encoding Labels**: Convert intent labels (e.g., EMI) into numeric values using LabelEncoder.
 
-**Data Splitting**: Split the data into 80% training and 20% testing sets for model training and evaluation.
+- **Data Splitting**: Split the data into 80% training and 20% testing sets for model training and evaluation.
 
 
 ## Model Training
@@ -167,5 +167,5 @@ You can test the model with your own queries using the interactive prediction fu
 
 ## Conclusion
 
-This project demonstrates the potential of BERT for intent detection, achieving moderate accuracy while handling multi-class text classification. Improvements such as **data augmentation** and **hyperparameter** tuning can further enhance performance. The system showcases how deep learning models can empower Conversational AI to better understand and respond to user queries.
+This task demonstrates the potential of BERT for intent detection, achieving moderate accuracy while handling multi-class text classification. Improvements such as **data augmentation** and **hyperparameter** tuning can further enhance performance. The system showcases how deep learning models can empower Conversational AI to better understand and respond to user queries.
 
