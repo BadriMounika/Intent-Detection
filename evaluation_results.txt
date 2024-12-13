@@ -1,0 +1,29 @@
+Accuracy: 0.5152
+Classification Report:
+                        precision    recall  f1-score   support
+
+100_NIGHT_TRIAL_OFFER       1.00      0.50      0.67         4
+   ABOUT_SOF_MATTRESS       0.00      0.00      0.00         3
+         CANCEL_ORDER       0.00      0.00      0.00         2
+        CHECK_PINCODE       1.00      1.00      1.00         1
+                  COD       1.00      0.50      0.67         2
+           COMPARISON       0.00      0.00      0.00         1
+    DELAY_IN_DELIVERY       0.00      0.00      0.00         2
+         DISTRIBUTORS       0.88      0.88      0.88         8
+                  EMI       0.80      0.80      0.80         5
+        ERGO_FEATURES       0.67      1.00      0.80         4
+             LEAD_GEN       0.23      0.75      0.35         4
+        MATTRESS_COST       0.75      1.00      0.86         3
+               OFFERS       1.00      0.67      0.80         3
+         ORDER_STATUS       0.09      1.00      0.17         1
+       ORTHO_FEATURES       0.33      0.33      0.33         3
+              PILLOWS       0.00      0.00      0.00         3
+     PRODUCT_VARIANTS       0.40      1.00      0.57         2
+      RETURN_EXCHANGE       0.50      0.20      0.29         5
+   SIZE_CUSTOMIZATION       0.00      0.00      0.00         1
+             WARRANTY       0.00      0.00      0.00         5
+   WHAT_SIZE_TO_ORDER       0.67      0.50      0.57         4
+
+             accuracy                           0.52        66
+            macro avg       0.44      0.48      0.42        66
+         weighted avg       0.51      0.52      0.48        66
